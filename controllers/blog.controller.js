@@ -53,8 +53,8 @@ exports.list= async (req, res) => {
         query.$or=[
             { "title": {$regex: req.query.keyword, $options: 'i'}},
             { "state": {$regex: req.query.keyword, $options: 'i'}},
-            {"author": {$regex: req.query.keyword, $options: 'i'}},
-            {"tags": {$regex: req.query.keyword, $options: 'i'}}
+            { "author": {$regex: req.query.keyword, $options: 'i'}},
+            { "tags": {$regex: req.query.keyword, $options: 'i'}}
         ]
     }
 
@@ -62,9 +62,12 @@ exports.list= async (req, res) => {
     .skip(0)
     .limit(20)
     .sort({
+      createdAt: 1,
       createdAt: -1,
       reading_time: 1,
-      read_count: 1
+      reading_time: -1,
+      read_count: 1,
+      read_count: -1
     });
 
     return res.status(200).send({
@@ -172,21 +175,13 @@ exports.getUserPosts = async (req, res) => {
 
     if(req.query.keyword){
         query.$or=[
-            { "title": {$regex: req.query.keyword, $options: 'i'}},
             { "state": {$regex: req.query.keyword, $options: 'i'}},
-            { "author": {$regex: req.query.keyword, $options: 'i'}},
-            { "tags": {$regex: req.query.keyword, $options: 'i'}}
         ]
     }
 
     let blogs = await Blog.find(query)
     .skip(0)
     .limit(20)
-    .sort({
-      createdAt: -1,
-      reading_time: 1,
-      read_count: 1
-    });
 
     return res.status(200).send({
         message: "Blogs successfully fetched",

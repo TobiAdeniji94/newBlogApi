@@ -33,23 +33,11 @@ function readingTime(text) {
     }
 }
 
-// function readingCount(text) {
-//     if (typeof text === "string") {
-//         const words = text.trim().split(/\s+/).length;
-//         return words;
-//     } else {
-//         return 0;
-//     }
-// }
-
-
 blogModel.pre("save", async function (next) {
     const blog = this;
     const readTime = readingTime(this.body);
-    // const readCount = readingCount(this.body);
 
     this.reading_time = readTime;
-    // this.read_count = readCount;
     next();
 });
 

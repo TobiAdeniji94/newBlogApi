@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1667744126758" clover="3.2.0">
-  <project timestamp="1667744126758" name="All files">
+<coverage generated="1667752648645" clover="3.2.0">
+  <project timestamp="1667752648646" name="All files">
     <metrics statements="171" coveredstatements="137" conditionals="32" coveredconditionals="13" methods="16" coveredmethods="11" elements="219" coveredelements="161" complexity="0" loc="171" ncloc="171" packages="5" files="10" classes="10"/>
     <package name="newBlogApi">
       <metrics statements="19" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
@@ -81,41 +81,41 @@
         <line num="52" count="4" type="cond" truecount="1" falsecount="1"/>
         <line num="53" count="0" type="stmt"/>
         <line num="61" count="4" type="stmt"/>
-        <line num="70" count="4" type="stmt"/>
-        <line num="76" count="0" type="stmt"/>
-        <line num="84" count="2" type="stmt"/>
-        <line num="85" count="1" type="stmt"/>
-        <line num="86" count="1" type="stmt"/>
-        <line num="87" count="1" type="stmt"/>
-        <line num="96" count="1" type="stmt"/>
-        <line num="101" count="0" type="stmt"/>
-        <line num="109" count="2" type="stmt"/>
-        <line num="110" count="1" type="stmt"/>
-        <line num="112" count="1" type="stmt"/>
+        <line num="73" count="4" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="87" count="2" type="stmt"/>
+        <line num="88" count="1" type="stmt"/>
+        <line num="89" count="1" type="stmt"/>
+        <line num="90" count="1" type="stmt"/>
+        <line num="99" count="1" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="112" count="2" type="stmt"/>
         <line num="113" count="1" type="stmt"/>
-        <line num="114" count="1" type="cond" truecount="1" falsecount="1"/>
         <line num="115" count="1" type="stmt"/>
-        <line num="124" count="1" type="stmt"/>
-        <line num="126" count="1" type="stmt"/>
-        <line num="132" count="0" type="stmt"/>
-        <line num="137" count="0" type="stmt"/>
-        <line num="145" count="2" type="stmt"/>
-        <line num="146" count="1" type="stmt"/>
-        <line num="148" count="1" type="stmt"/>
+        <line num="116" count="1" type="stmt"/>
+        <line num="117" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="118" count="1" type="stmt"/>
+        <line num="127" count="1" type="stmt"/>
+        <line num="129" count="1" type="stmt"/>
+        <line num="135" count="0" type="stmt"/>
+        <line num="140" count="0" type="stmt"/>
+        <line num="148" count="2" type="stmt"/>
         <line num="149" count="1" type="stmt"/>
-        <line num="150" count="1" type="cond" truecount="1" falsecount="1"/>
         <line num="151" count="1" type="stmt"/>
         <line num="152" count="1" type="stmt"/>
-        <line num="156" count="0" type="stmt"/>
-        <line num="161" count="0" type="stmt"/>
-        <line num="169" count="2" type="stmt"/>
-        <line num="170" count="0" type="stmt"/>
-        <line num="171" count="0" type="stmt"/>
-        <line num="173" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="153" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="154" count="1" type="stmt"/>
+        <line num="155" count="1" type="stmt"/>
+        <line num="159" count="0" type="stmt"/>
+        <line num="164" count="0" type="stmt"/>
+        <line num="172" count="2" type="stmt"/>
+        <line num="173" count="0" type="stmt"/>
         <line num="174" count="0" type="stmt"/>
+        <line num="176" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="177" count="0" type="stmt"/>
         <line num="182" count="0" type="stmt"/>
-        <line num="191" count="0" type="stmt"/>
-        <line num="197" count="0" type="stmt"/>
+        <line num="186" count="0" type="stmt"/>
+        <line num="192" count="0" type="stmt"/>
       </file>
       <file name="profile.controller.js" path="C:\Users\Elite folio9470m\Documents\altschool-opensource\newBlogApi\controllers\profile.controller.js">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -158,13 +158,13 @@
         <line num="29" count="10" type="stmt"/>
         <line num="30" count="10" type="stmt"/>
         <line num="32" count="0" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="10" type="stmt"/>
+        <line num="38" count="10" type="stmt"/>
+        <line num="40" count="10" type="stmt"/>
+        <line num="41" count="10" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
         <line num="46" count="2" type="stmt"/>
-        <line num="47" count="10" type="stmt"/>
-        <line num="48" count="10" type="stmt"/>
-        <line num="51" count="10" type="stmt"/>
-        <line num="53" count="10" type="stmt"/>
-        <line num="56" count="2" type="stmt"/>
-        <line num="58" count="2" type="stmt"/>
       </file>
       <file name="user.model.js" path="C:\Users\Elite folio9470m\Documents\altschool-opensource\newBlogApi\models\user.model.js">
         <metrics statements="16" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
